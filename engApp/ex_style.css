@@ -1,0 +1,30 @@
+body {
+    background-color: #5e5e5e;
+}
+
+#replace {
+    position: absolute;
+}
+.element_apose {
+    background-color: black;
+    position: absolute;
+    cursor: grab; /* Change cursor to indicate draggable */
+}
+.draggable {
+    background-color: #cbb8d6;
+    border: 2px solid rgb(82, 82, 82);
+    border-radius: 12%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Safari */
+    -khtml-user-select: none;    /* Konqueror HTML */
+    -moz-user-select: none;      /* Old versions of Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    cursor: grab;
+}
+  
